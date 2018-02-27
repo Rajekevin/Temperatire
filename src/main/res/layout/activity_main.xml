@@ -12,6 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Convertir Celsius / Fahremeheit"
+
         />
 
     <LinearLayout
@@ -24,7 +25,9 @@
             android:hint="Entre un celcius"
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:numeric="integer"
+            android:inputType="number" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -40,11 +43,14 @@
         android:layout_height="wrap_content">
 
          <EditText
-             android:id="@+id/editTextFarehneit"
+            android:id="@+id/editTextFarehneit"
             android:hint="Entre un Farehneit"
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:numeric="integer"
+             android:inputType="number"
+             />
 
         <TextView
             android:layout_width="wrap_content"

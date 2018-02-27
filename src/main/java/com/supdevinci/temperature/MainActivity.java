@@ -40,13 +40,14 @@ public class MainActivity extends AppCompatActivity {
              @Override
              public void afterTextChanged(Editable editable) {
 
-                 String valeur = editable.ToString();
-                 editTextFarhremeit.setText(valeur);
+                 Double resultat =0.0;
+                 editTextFarhremeit.setText(String.valueOf(resultat));
+
+               /*  String valeur = editable.ToString();
+                 editTextFarhremeit.setText(valeur);*/
 
              }
          });
-
-
 
         //setContentView();
     }
