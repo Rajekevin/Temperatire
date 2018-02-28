@@ -8,35 +8,35 @@
     tools:context="com.supdevinci.temperature.MainActivity"
     android:padding="16dp">
 
+
+    <!-- Label -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Convertir Celsius / Fahremeheit"
+        android:text="Convertir Celsius / Fahremeheit" />
 
-        />
-
+    <!-- Bloc celcius  -->
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
          <EditText
-             android:id="@+id/editTextCelcius"
+            android:id="@+id/editTextCelcius"
             android:hint="Entre un celcius"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:numeric="integer"
             android:inputType="number" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="°C"/>
+            android:text="°C" />
     </LinearLayout>
 
 
-    <!-- -->
+    <!-- Bloc Fareihneit -->
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
@@ -48,14 +48,12 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:numeric="integer"
-             android:inputType="number"
-             />
+            android:inputType="number" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="°F"/>
+            android:text="°F" />
     </LinearLayout>
 
     <!-- Button Sauvegarde -->
@@ -65,12 +63,9 @@
         android:layout_height="wrap_content"
         android:text="Sauvegarde"/>
 
-
     <!-- ListView -->
     <ListView
         android:id="@+id/ListViewTemperature"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-
-
 </LinearLayout>
